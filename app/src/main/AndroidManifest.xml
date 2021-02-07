@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TMDBClient">
-        <activity android:name=".MainActivity">
+        <activity android:name=".presentation.tv.TvShowActivity"></activity>
+        <activity android:name=".presentation.artist.ArtistActivity" />
+        <activity android:name=".presentation.movie.MovieActivity" />
+        <activity android:name=".presentation.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
