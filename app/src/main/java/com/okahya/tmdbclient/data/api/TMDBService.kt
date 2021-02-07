@@ -1,10 +1,9 @@
 package com.okahya.tmdbclient.data.api
 
-import com.okahya.tmdbclient.data.Artist
-import com.okahya.tmdbclient.data.ArtistList
+import com.okahya.tmdbclient.data.model.artist.ArtistList
 import retrofit2.http.Query
-import com.okahya.tmdbclient.data.MovieList
-import com.okahya.tmdbclient.data.TvShowList
+import com.okahya.tmdbclient.data.model.movie.MovieList
+import com.okahya.tmdbclient.data.model.tvshow.TvShowList
 import retrofit2.Response
 import retrofit2.http.GET
 
