@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.okahya.tmdbclient.domain.usecase.GetTvShowsUseCase
 import com.okahya.tmdbclient.domain.usecase.UpdateTvShowsUseCase
 
-class TvShowModelFactory(
+class TvShowViewModelFactory(
     private val getTvShowsUseCase: GetTvShowsUseCase,
     private val updateTvShowsUseCase: UpdateTvShowsUseCase): ViewModelProvider.Factory {
 
