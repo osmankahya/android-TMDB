@@ -4,10 +4,7 @@ import android.app.Application
 import com.okahya.tmdbclient.BuildConfig
 import com.okahya.tmdbclient.presentation.di.Injector
 import com.okahya.tmdbclient.presentation.di.artist.ArtistSubComponent
-import com.okahya.tmdbclient.presentation.di.core.AppComponent
-import com.okahya.tmdbclient.presentation.di.core.AppModule
-import com.okahya.tmdbclient.presentation.di.core.NetModule
-import com.okahya.tmdbclient.presentation.di.core.RemoteDataModule
+import com.okahya.tmdbclient.presentation.di.core.*
 import com.okahya.tmdbclient.presentation.di.movie.MovieSubComponent
 import com.okahya.tmdbclient.presentation.di.tvshow.TvShowSubComponent
 
@@ -17,11 +14,11 @@ class App: Application(), Injector {
 
     override fun onCreate() {
         super.onCreate()
-//        appComponent = DaggerAppComponent.builder()
-//            .appModule(AppModule(applicationContext))
-//            .netModule(NetModule(BuildConfig.BASE_URL))
-//            .remoteDataModule(RemoteDataModule(BuildConfig.API_KEY))
-//            .build()
+        appComponent = DaggerAppComponent.builder()
+            .appModule(AppModule(applicationContext))
+            .netModule(NetModule(BuildConfig.BASE_URL))
+            .remoteDataModule(RemoteDataModule(BuildConfig.API_KEY))
+            .build()
     }
 
     override fun createMovieSubComponent(): MovieSubComponent {
