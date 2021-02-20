@@ -52,7 +52,7 @@ class ArtistRepositoryImpl(
         if (artistList.size > 0) {
             return artistList
         } else {
-            artistList = getArtistsFromDB()
+            artistList = getArtistsFromAPI()
             artistLocalDataSource.saveArtistsToDB(artistList)
         }
         return artistList
