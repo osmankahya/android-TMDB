@@ -1,8 +1,6 @@
 <h2>MovieApp</h2>  
   
-<p align="center">    
-	TMDB is an android application that lists popular movies, popular tv shows and popular artists based on MVVM architecture.
-</p>
+TMDB is an android application that lists popular movies, popular tv shows and popular artists based on MVVM architecture.
 
 ## API
 - [Tmdb Api](https://developers.themoviedb.org/3)
@@ -14,10 +12,10 @@
 ## Libraries
 This app takes use of the following libraries:
 - [JetPack](https://developer.android.com/jetpack) 🚀
-    -[Data Binding](https://developer.android.com/topic/libraries/data-binding) - Declaratively bind observable data to UI elements
-    -[Viewmodel](https://developer.android.com/jetpack/androidx/releases/room) - Manage UI data to survive configuration changes and is lifecycle-aware
-    -[Room DB](https://developer.android.com/training/data-storage/room) - Fluent SQLite database access
-    -[LiveData](https://developer.android.com/topic/libraries/architecture/livedata) - Notify views when underlying database changes
+    - [Data Binding](https://developer.android.com/topic/libraries/data-binding) - Declaratively bind observable data to UI elements
+    - [Viewmodel](https://developer.android.com/jetpack/androidx/releases/room) - Manage UI data to survive configuration changes and is lifecycle-aware
+    - [Room DB](https://developer.android.com/training/data-storage/room) - Fluent SQLite database access
+    - [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) - Notify views when underlying database changes
 - [Room](https://developer.android.com/jetpack/androidx/releases/room)
 - [Retrofit2](https://github.com/square/retrofit) - type safe http client with coroutines support
 - [Gson](https://github.com/google/gson) - A Java serialization/deserialization library to convert Java Objects into JSON and back
