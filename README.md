@@ -1,6 +1,6 @@
-<h2>MovieApp</h2>  
+<h2>TMDB App</h2>  
   
-TMDB is an android application that lists popular movies, popular tv shows and popular artists based on MVVM architecture.
+TMDB is an android application that lists [popular movies](https://developers.themoviedb.org/3/movies/get-popular-movies), [popular tv shows](https://developers.themoviedb.org/3/tv/get-popular-tv-shows) and [popular artists](https://developers.themoviedb.org/3/people/get-popular-people) based on MVVM architecture.
 
 ## API
 - [Tmdb Api](https://developers.themoviedb.org/3)
